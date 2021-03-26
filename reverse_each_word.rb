@@ -10,6 +10,6 @@
 def reverse_each_word(string)
   new_string = [];
   string.split(" ").collect do|str|
-    string << str.reverse();
+    str << str.reverse();
   end 
 end 
