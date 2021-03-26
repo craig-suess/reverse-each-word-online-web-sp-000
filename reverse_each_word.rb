@@ -14,3 +14,5 @@ def reverse_each_word(string)
     end
     new_string.join(" ");
 end 
+
+# create an empty array, take the string passed in, and convert it to an array, itterate through that array, push the reversed words into the new array, then convert the new array to a string. 
