@@ -11,6 +11,6 @@ def reverse_each_word(string)
   new_string = [];
   string.split(" ").collect do|str|
     str.reverse();
-    str.join(" ")
+    str
   end 
 end 
